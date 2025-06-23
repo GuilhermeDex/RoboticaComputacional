@@ -1,0 +1,6 @@
+# requirements.txt
+stable-retro @ git+https://github.com/openai/retro.git
+opencv-python==4.9.0.80
+numpy==1.26.4
+keyboard==0.13.5
+argparse ; python_version < '3.9'  # argparse já vem no Python 3.9+
