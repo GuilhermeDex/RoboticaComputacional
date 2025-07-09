@@ -46,7 +46,6 @@ def main():
 
         # Processar frame com o bot
         bot.refresh(frame)
-
         
         env.step(controls.get_button_array())
 
